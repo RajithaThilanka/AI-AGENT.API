@@ -7,8 +7,11 @@ name = "pypi"
 fastapi = "*"
 uvicorn = "*"
 langchain = "*"
+langchain-community = "*"
+langchain-openai = "*"
 python-dotenv = "*"
 pydantic = "*"
+pydantic-settings = "*"
 openai = "*"
 
 [dev-packages]

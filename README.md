@@ -72,6 +72,20 @@ python main.py
 
 The API will be available at `http://localhost:8000` by default.
 
+## API Documentation
+
+The API documentation is available through Swagger UI and ReDoc:
+
+- Swagger UI: `http://localhost:8000/docs`
+- ReDoc: `http://localhost:8000/redoc`
+- OpenAPI JSON: `http://localhost:8000/openapi.json`
+
+These endpoints provide interactive documentation where you can:
+- View all available endpoints
+- Test API endpoints directly from the browser
+- View request/response schemas
+- See authentication requirements
+
 ## Development
 
 - The API routes are defined in `app/api/routes.py`
